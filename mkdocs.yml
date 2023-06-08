@@ -11,6 +11,8 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+    - toc.follow
+    - navigation.path
  language: en
  palette:
     - scheme: default
@@ -25,6 +27,57 @@ theme:
         name: Switch to light mode    
       primary: indigo
       accent: lime
+markdown_extensions:
+  #Admonitions or call-outs
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+  #Attribute lists ana buttons
+  - attr_list
+
+  #Code blocks
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+  #Table
+  - tables
+
+  #Formatting
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+  #Grid
+  - attr_list
+  - md_in_html
+
+  #Emoji
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: tag:yaml.org,2002:python/name:pymdownx.emoji.twemoji
+      emoji_generator: tag:yaml.org,2002:python/name:materialx.emoji.to_svg
+
+  #Images
+  - attr_list
+  - md_in_html
+
+  #Lists
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  
+  #Tooltips
+  - abbr
+  - attr_list
+  - pymdownx.snippets
 
 copyright: |
   &copy; 2023 <a href="https://github.com/tannisanta"target="_blank"rel="noopener">Tania Tsakun</a>

@@ -1,3 +1,5 @@
-# List of books
+# Books
 
-The table below contains a list of books I have read and the information to preserve.
+On this page you can find a handpicked collection of essential TechComm books. If you're passionate about the art and science of technical communication, these books are a treasure trove of valuable insights, practical tips, and expert guidance. 
+
+---
