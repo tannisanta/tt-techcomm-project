@@ -59,12 +59,6 @@ markdown_extensions:
   - attr_list
   - md_in_html
 
-  #Emoji
-  - attr_list
-  - pymdownx.emoji:
-      emoji_index: tag:yaml.org,2002:python/name:pymdownx.emoji.twemoji
-      emoji_generator: tag:yaml.org,2002:python/name:materialx.emoji.to_svg
-
   #Images
   - attr_list
   - md_in_html
