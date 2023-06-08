@@ -1,5 +1,5 @@
 # Home
 
-![Cover][def]
+![Image][def]
 
-[def]: docs/img/../../../img/cover.webp/
+[def]: https://resumespice.com/wp-content/uploads/2021/03/37.png
