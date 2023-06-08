@@ -1,3 +1,5 @@
 # Home
 
-![Cover](docs/img/../../../img/cover.webp/)
+![Cover][def]
+
+[def]: docs/img/../../../img/cover.webp/
