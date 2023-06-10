@@ -48,5 +48,56 @@ The instructions below help create a GitHub repository, clone the repository to 
 7. (Optional) For the **Choose a license** step, select the **GNU General pulic license** from the dropdown list.
 8. Select **Create repository**.
 Your repository has been created.
+9. Open your GitHub desktop account and [clone the repository](https://www.youtube.com/watch?v=PoZNIbs_wx8).
+
+Now you can make changes locally and then commit and push them to GitHub account in the web.
+
+### Build website
+
+#### To build a website
+
+1. Open your cloned project in VS Code and open its terminal.
+2. Assuming you have Python already, create virtual Python environment by using the following command:
+
+    ```py
+   python -m venv venv
+    ```
+
+3. Activate it using the following command:
+
+    ```py
+   source venv/bin/activate
+    ```
+
+4. Install MkDocs with the following command:
+
+    ```py
+   pip install mkdocs-material
+    ```
+
+    All the dependancies are downloaded for the website.
+5. Created a new website by using the command:
+
+    ```py
+   mkdocs new .
+    ```
+
+    You  now have two files created for the website:
+
+    ```py
+    INFO     -  Writing config file: ./mkdocs.yml
+    INFO     -  Writing initial docs: ./docs/index.md
+    ```
+
+6. Run the website locally by using the command:
+
+    ```py
+   mkdocs serve
+    ```
+
+    You know have a website built and serving on the local host ```http://127.0.0.1:8000/```
+
+7. Open the website by copying and pasting the local host address into the browser address bar.
+The website is served and can be accesses locally.
 
 ...to be continued.
