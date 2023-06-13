@@ -73,15 +73,5 @@ markdown_extensions:
   - attr_list
   - pymdownx.snippets
 
-  #Pluging. Exclude .md from automatic search
-plugins:
-  - search
-  - exclude-search:
-      exclude:
-        - page.md
-        - page.md#section
-        - directory/*
-        - /*/page.md
-
 copyright: |
   &copy; 2023 <a href="https://github.com/tannisanta"target="_blank"rel="noopener">Tania Tsakun</a>
