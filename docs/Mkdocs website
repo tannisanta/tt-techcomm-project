@@ -226,14 +226,14 @@ The website project files are now stored on GitHub.
 You can see that the website is being deployed to GitHub pages.
 6. Open the **pages build and deployment** and follow the link in **deploy** box.
 The website is published.
-1. Add a direct link to the repository **About** section by opening settings, selecting the **Use your GitHub Pages website** checkbox, and saving the changes.
+7. Add a direct link to the repository **About** section by opening settings, selecting the **Use your GitHub Pages website** checkbox, and saving the changes.
 ![Link](/img/mkdocs_link.jpg)
 
 You can know access your website and share it with others, make changes locally and push them to GitHub. The website is automatically deployed after you push your changes.
 
 ---
 
-##### Check the following references for more information:
+##### Check the following references for more information
 
 - [MkDocs documentation](https://squidfunk.github.io/mkdocs-material/)
 - [GitHub pages](https://pages.github.com/)
