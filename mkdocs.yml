@@ -1,18 +1,36 @@
 site_name: TechComm Art
+language: en
+site_author: Tetiana Tsakun
+site_description: >-
+  MkDocs website for practicing and sharing TechComm materials.
+
 theme: 
  name: material
  features:
-    - navigation.tabs
-    - navigation.sections
-    - toc.integrate
-    - navigation.top
-    - search.suggest
-    - search.highlight
-    - content.tabs.link
-    - content.code.annotation
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
     - content.code.copy
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
     - toc.follow
-    - navigation.path
+    # - toc.integrate
+ 
  nav:
     - Home: 'index.md'
     - Books:
@@ -22,7 +40,7 @@ theme:
     - MkDocs:
         - 'Mkdocs website':
           - 'Create website': 'MkDocs Website.md'
- language: en
+
  palette:
     - scheme: default
       toggle:
