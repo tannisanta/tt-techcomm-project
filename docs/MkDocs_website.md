@@ -1,4 +1,4 @@
-# MkDocs website
+# **MkDocs website**
 
 MkDocs is a popular static site generator specifically designed for creating documentation websites. It allows you to write your documentation content in Markdown format and automatically generates a static HTML website.
 
@@ -31,11 +31,11 @@ In this document, I share the process of building an MkDoc static website and ho
 - GitHub account
 - GiHub desktop
 
-## Step-by-step guides
+## **Step-by-step guides**
 
 The instructions below help create a GitHub repository, clone the repository to the local machine, launch the MkDocs website with Python, and publish it to GitHub pages.
 
-### Create GitHub repository
+### **Create GitHub repository**
 
 #### To create new repository in your GitHub account
 
@@ -52,7 +52,7 @@ Your repository has been created.
 
 Now you can make changes locally and then commit and push them to GitHub account in the web.
 
-### Build website
+### **Build website**
 
 #### To build a website
 
@@ -109,7 +109,7 @@ source venv/bin/activate
 mkdocs serve
 ```
 
-### Configure website
+### **Configure website**
 
 The website has the starting configuration. You can add configuration using the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/) documentation. Let us proceed with the basic setup.
 
@@ -159,9 +159,9 @@ The website has the starting configuration. You can add configuration using the 
 
     When you refresh the website in your browser by visiting the same local host, you can see the changes. If you need to add more settings to your website configuration and add extensions, use the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/) documentation.
 
-### Add pages
+### **Add pages**
 
-#### To add more pages
+#### To add pages
 
 1. Go to the project folder in VS Code.
 2. Select the **docs** folder.
@@ -174,7 +174,7 @@ For example, **anotherpage**.**md**.
 When you refresh the page, you can see the changes.
 ![Changed](mkdocs_changes.jpg)
 
-### Publish website on GitHub
+### **Publish website on GitHub**
 
 #### To prepare files for publishing
 
