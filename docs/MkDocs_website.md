@@ -1,4 +1,4 @@
-# Introduction
+# MkDocs webstite
 
 MkDocs is a popular static site generator specifically designed for creating documentation websites. It allows you to write your documentation content in Markdown format and automatically generates a static HTML website.
 
@@ -37,7 +37,7 @@ The instructions below help create a GitHub repository, clone the repository to 
 
 ## **Create GitHub repository**
 
-To create new repository in your GitHub account
+**To create new repository in your GitHub account**
 
 1. Log in to your GitHub account.
 2. At the top left corner, select **+** > **New repository**.
