@@ -15,14 +15,12 @@ theme:
     - navigation.path
  nav:
     - Home: 'index.md'
-    - Blogs: 
-        - 'TechComm blogs': 'Techcomm_blogs.md'
     - Books:
         - 'TechComm books': 'Books.md'
-        - 'Release Notes': 'release-notes.md'
+    - Blogs: 
+        - 'TechComm blogs': 'Techcomm_blogs.md'
     - MkDocs:
         - 'Create Mkdocs Website': 'MkDocs Website.md'
-        - 'Styling your docs': 'styling-your-docs.md'
  language: en
  palette:
     - scheme: default

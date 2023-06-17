@@ -1,4 +1,4 @@
-# MkDocs website for documentation
+# MkDocs website 
 
 MkDocs is a popular static site generator specifically designed for creating documentation websites. It allows you to write your documentation content in Markdown format and automatically generates a static HTML website.
 
