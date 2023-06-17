@@ -100,7 +100,7 @@ Now you can make changes locally and then commit and push them to GitHub account
 
 7. Open the website by copying and pasting the local host address into the browser address bar.
 The website is served and can be accesses locally.
-![Startpage](https://github.com/tannisanta/tt-techcomm-project/blob/main/img/mkdocs_basic.jpg)
+![Startpage](https://raw.githubusercontent.com/tannisanta/tt-techcomm-project/main/img/mkdocs_basic.jpg)
 
 If make a pause and need to activate the env some time later, use the following commands in the VS Code terminal of the project:
 
@@ -173,7 +173,7 @@ For example, **anotherpage**.**md**.
 6. Add the text to be displayed on the newly added page.
 7. Save the changes.
 When you refresh the page, you can see the changes.
-![Changed](../img/mkdocs_changes.jpg)
+![Changed](https://raw.githubusercontent.com/tannisanta/tt-techcomm-project/main/img/mkdocs_changes.jpg)
 
 ## **Publish website on GitHub**
 
@@ -222,13 +222,13 @@ The website project files are now stored on GitHub.
 2. Go to **Settings** > **Pages**.
 3. For **Source**, leave **Deploy from a branch**.
 4. For **Branch**, select **gh-pages** and save.
-![GitHub](./img/mkdocs_github.jpg)
+![GitHub](https://raw.githubusercontent.com/tannisanta/tt-techcomm-project/main/img/mkdocs_github.jpg)
 5. Go to the **Actions** tab.
 You can see that the website is being deployed to GitHub pages.
 6. Open the **pages build and deployment** and follow the link in **deploy** box.
 The website is published.
 7. Add a direct link to the repository **About** section by opening settings, selecting the **Use your GitHub Pages website** checkbox, and saving the changes.
-![Link](./img/mkdocs_link.jpg)
+![Link](https://raw.githubusercontent.com/tannisanta/tt-techcomm-project/main/img/mkdocs_link.jpg)
 
 You can know access your website and share it with others, make changes locally and push them to GitHub. The website is automatically deployed after you push your changes.
 
