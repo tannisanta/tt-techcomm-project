@@ -99,7 +99,7 @@ Now you can make changes locally and then commit and push them to GitHub account
 
 7. Open the website by copying and pasting the local host address into the browser address bar.
 The website is served and can be accesses locally.
-![Starting page](../img/mkdocs_basic.jpg)
+<img src="img/mkdocs_basic.jpg" alt='Starting page'/>
 
 If make a pause and need to activate the env some time later, use the following commands in the VS Code terminal of the project:
 
