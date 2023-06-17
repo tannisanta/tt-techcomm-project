@@ -32,14 +32,16 @@ theme:
     # - toc.integrate
  
  nav:
-    - Home: 'index.md'
+    - Home: index.md
     - Books:
-        - 'TechComm books': 'Books.md'
+        - TechComm books: Books.md
+        - Create website: MkDocs Website.md
     - Blogs: 
-        - 'TechComm blogs': 'Techcomm_blogs.md'
-    - MkDocs:
-        - 'Mkdocs website':
-          - 'Create website': 'MkDocs Website.md'
+        - TechComm blogs: Techcomm_blogs.md
+        - Create website: MkDocs Website.md
+    - Mkdocs website:
+        - Create website: MkDocs Website.md
+        - TechComm books: Books.md
 
  palette:
     - scheme: default
