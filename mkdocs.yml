@@ -36,6 +36,10 @@ theme:
       primary: indigo
       accent: lime
 markdown_extensions:
+  #TOC
+  - toc:
+        baselevel: 2
+  
   #Admonitions or call-outs
   - admonition
   - pymdownx.details
