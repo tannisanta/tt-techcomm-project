@@ -20,7 +20,8 @@ theme:
     - Blogs: 
         - 'TechComm blogs': 'Techcomm_blogs.md'
     - MkDocs:
-        - 'Create Mkdocs Website': 'MkDocs Website.md'
+        - 'Mkdocs website':
+          - 'Create website': 'MkDocs Website.md'
  language: en
  palette:
     - scheme: default
