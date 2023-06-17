@@ -76,6 +76,7 @@ Now you can make changes locally and then commit and push them to GitHub account
     ```
 
     All the dependancies are downloaded for the website.
+
 5. Created a new website by using the command:
 
     ```py
@@ -99,7 +100,7 @@ Now you can make changes locally and then commit and push them to GitHub account
 
 7. Open the website by copying and pasting the local host address into the browser address bar.
 The website is served and can be accesses locally.
-![mkdocs](../img/mkdocs_basic.jpg)
+![Startpage](https://github.com/tannisanta/tt-techcomm-project/blob/main/img/mkdocs_basic.jpg)
 
 If make a pause and need to activate the env some time later, use the following commands in the VS Code terminal of the project:
 
