@@ -36,10 +36,6 @@ theme:
       primary: indigo
       accent: lime
 markdown_extensions:
-  #TOC
-  - toc:
-        baselevel: 2
-  
   #Admonitions or call-outs
   - admonition
   - pymdownx.details
@@ -84,6 +80,10 @@ markdown_extensions:
   - abbr
   - attr_list
   - pymdownx.snippets
+
+  #TOC
+  - toc:
+      baselevel: 2
 
 copyright: |
   &copy; 2023 <a href="https://github.com/tannisanta"target="_blank"rel="noopener">Tania Tsakun</a>

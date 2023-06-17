@@ -1,4 +1,4 @@
-# **MkDocs website**
+# Introduction
 
 MkDocs is a popular static site generator specifically designed for creating documentation websites. It allows you to write your documentation content in Markdown format and automatically generates a static HTML website.
 
@@ -24,20 +24,20 @@ MkDocs works well with VCS like Git. You can store your documentation files in a
 
 In this document, I share the process of building an MkDoc static website and hosting in on GitHub pages.
 
-## Pre-requisites
+# Pre-requisites
 
 - VS Code (or other source code editor)
 - Python extension installed
 - GitHub account
 - GiHub desktop
 
-## **Step-by-step guides**
+# **Step-by-step guides**
 
 The instructions below help create a GitHub repository, clone the repository to the local machine, launch the MkDocs website with Python, and publish it to GitHub pages.
 
-### **Create GitHub repository**
+## **Create GitHub repository**
 
-#### To create new repository in your GitHub account
+To create new repository in your GitHub account
 
 1. Log in to your GitHub account.
 2. At the top left corner, select **+** > **New repository**.
@@ -52,9 +52,9 @@ Your repository has been created.
 
 Now you can make changes locally and then commit and push them to GitHub account in the web.
 
-### **Build website**
+## **Build website**
 
-#### To build a website
+**To build a website**
 
 1. Open your cloned project in VS Code and open its terminal.
 2. Assuming you have Python already, create virtual Python environment by using the following command:
@@ -109,11 +109,11 @@ source venv/bin/activate
 mkdocs serve
 ```
 
-### **Configure website**
+## **Configure website**
 
 The website has the starting configuration. You can add configuration using the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/) documentation. Let us proceed with the basic setup.
 
-#### To configure mkdocs website
+**To configure mkdocs website**
 
 1. Open your mkdocs.yml in VS Code.
 2. Edit the content to change theme, define language, add a search box, and set colours:
@@ -159,9 +159,9 @@ The website has the starting configuration. You can add configuration using the 
 
     When you refresh the website in your browser by visiting the same local host, you can see the changes. If you need to add more settings to your website configuration and add extensions, use the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/) documentation.
 
-### **Add pages**
+## **Add pages**
 
-#### To add pages
+**To add pages**
 
 1. Go to the project folder in VS Code.
 2. Select the **docs** folder.
@@ -174,9 +174,9 @@ For example, **anotherpage**.**md**.
 When you refresh the page, you can see the changes.
 ![Changed](mkdocs_changes.jpg)
 
-### **Publish website on GitHub**
+## **Publish website on GitHub**
 
-#### To prepare files for publishing
+**To prepare files for publishing**
 
 1. Open your website project in VS code.
 2. Create the **.github** folder.
@@ -215,7 +215,7 @@ When you refresh the page, you can see the changes.
 8. Select **Push origin** to push changes to the origin remote repository.
 The website project files are now stored on GitHub.
 
-#### To publish website using GitHub pages
+**To publish website using GitHub pages**
 
 1. On GitHub, open the project repository.
 2. Go to **Settings** > **Pages**.
