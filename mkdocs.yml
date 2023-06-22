@@ -1,5 +1,4 @@
 site_name: TechComm Art
-language: en
 site_author: Tetiana Tsakun
 site_description: >-
   MkDocs website for practicing and sharing TechComm materials.
@@ -12,34 +11,30 @@ theme:
     - content.action.view
     - content.code.annotate
     - content.code.copy
-    - content.tabs.link
+    # - content.tabs.link
     - content.tooltips
-    - header.autohide
-    - navigation.expand
+    # - header.autohide
+    # - navigation.expand
     - navigation.footer
     - navigation.indexes
-    - navigation.instant
-    - navigation.prune
+    # - navigation.instant
+    # - navigation.prune
     - navigation.sections
     - navigation.tabs
-    - navigation.tabs.sticky
+    # - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
     - search.highlight
     - search.share
     - search.suggest
     - toc.follow
-    - toc.integrate
- 
- nav:
-    - Home: index.md
-    - Books:
-        - TechComm books: Books.md
-    - Blogs: 
-        - TechComm blogs: Techcomm_blogs.md
-    - Mkdocs website:
-        - Create website: MkDocs Website.md
+    # - toc.integrate
 
+ language: en
+
+ hide:
+    - title
+ 
  palette:
     - scheme: default
       toggle:
@@ -53,6 +48,7 @@ theme:
         name: Switch to light mode    
       primary: indigo
       accent: lime
+
 markdown_extensions:
   #Admonitions or call-outs
   - admonition
@@ -101,7 +97,10 @@ markdown_extensions:
 
   #TOC
   - toc:
+      permalink: "§"
       baselevel: 2
+      separator: "_"
+      toc_depth: "2-4"
 
 copyright: |
   &copy; 2023 <a href="https://github.com/tannisanta"target="_blank"rel="noopener">Tania Tsakun</a>

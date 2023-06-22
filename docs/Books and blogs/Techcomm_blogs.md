@@ -1,5 +1,3 @@
-# Blogs
-
 On this page you can find a curated list of top-notch TechComm blogs. Whether you're an aspiring technical communicator, a seasoned professional, or simply intrigued by the world of technical communication, these blogs are your gateway to a wealth of knowledge, insights, and trends in the field.
 
 ---
