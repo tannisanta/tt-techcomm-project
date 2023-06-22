@@ -80,7 +80,7 @@ Now you can make changes locally and then commit and push them to GitHub account
 5. Created a new website by using the command:
 
     ```py
-   mkdocs new .
+    mkdocs new .
     ```
 
     You  now have two files created for the website:
@@ -96,7 +96,7 @@ Now you can make changes locally and then commit and push them to GitHub account
    mkdocs serve
     ```
 
-    You know have a website built and serving on the local host ```http://127.0.0.1:8000/```
+    You now have a website built and serving on the local host ```http://127.0.0.1:8000/```
 
 7. Open the website by copying and pasting the local host address into the browser address bar.
 The website is served and can be accesses locally.

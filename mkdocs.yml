@@ -12,36 +12,33 @@ theme:
     - content.action.view
     - content.code.annotate
     - content.code.copy
-    # - content.tabs.link
+    - content.tabs.link
     - content.tooltips
-    # - header.autohide
-    # - navigation.expand
+    - header.autohide
+    - navigation.expand
     - navigation.footer
     - navigation.indexes
-    # - navigation.instant
-    # - navigation.prune
+    - navigation.instant
+    - navigation.prune
     - navigation.sections
     - navigation.tabs
-    # - navigation.tabs.sticky
+    - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
     - search.highlight
     - search.share
     - search.suggest
     - toc.follow
-    # - toc.integrate
+    - toc.integrate
  
  nav:
     - Home: index.md
     - Books:
         - TechComm books: Books.md
-        - Create website: MkDocs Website.md
     - Blogs: 
         - TechComm blogs: Techcomm_blogs.md
-        - Create website: MkDocs Website.md
     - Mkdocs website:
         - Create website: MkDocs Website.md
-        - TechComm books: Books.md
 
  palette:
     - scheme: default
