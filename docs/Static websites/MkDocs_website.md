@@ -2,22 +2,22 @@ MkDocs is a popular static site generator specifically designed for creating doc
 
 Here are a few reasons why MkDocs is a good choice for technical documentation:
 
-- **Simplicity**
+- **Simplicity**:
 It has a minimalistic approach, focusing on the essentials of documentation without unnecessary complexity.
 
-- **Markdown support**
+- **Markdown support**:
 With MkDocs, you can write your documentation content in Markdown, making it accessible to both technical and non-technical contributors.
 
-- **Navigation and search**
+- **Navigation and search**:
 MkDocs automatically generates a navigation menu based on the directory structure of your documentation. Additionally, it provides a built-in search functionality that allows users to quickly find the information they need within your documentation.
 
-- **Customizability**
+- **Customizability**:
 MkDocs offers a range of customizable themes and templates, allowing you to tailor the appearance of your documentation to match your brand or project.
 
-- **Versioning and deployment**
+- **Versioning and deployment**:
 MkDocs supports versioning, making it convenient to manage and publish multiple versions of your documentation.
 
-- **Integration with version control systems (VCS)**
+- **Integration with version control systems (VCS)**:
 MkDocs works well with VCS like Git. You can store your documentation files in a Git repository, making it easy to collaborate with team members, track changes, and manage contributions.
 
 In this document, I share the process of building an MkDoc static website and hosting in on GitHub pages.
@@ -100,7 +100,7 @@ Now you can make changes locally and then commit and push them to GitHub account
 The website is served and can be accesses locally.
 ![Startpage](https://raw.githubusercontent.com/tannisanta/tt-techcomm-project/main/img/mkdocs_basic.jpg)
 
-If make a pause and need to activate the env some time later, use the following commands in the VS Code terminal of the project:
+If you need to make a pause and activate the env some time later, use the following commands in the VS Code terminal of the project:
 
 ```py
 source venv/bin/activate
@@ -110,7 +110,7 @@ mkdocs serve
 
 ## **Configure website**
 
-The website has the starting configuration. You can add configuration using the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/) documentation. Let us proceed with the basic setup.
+The website has the initial configuration. You can add configuration using the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/) documentation. Let us proceed with the basic setup.
 
 **To configure mkdocs website**
 
