@@ -31,9 +31,6 @@ theme:
     # - toc.integrate
 
  language: en
-
- hide:
-    - title
  
  palette:
     - scheme: default
