@@ -1,3 +1,3 @@
 # TechComm art
 
-The website will contain materials, resources, and other information.
+The website contains some materials, resources, and other information related to technical writing.
