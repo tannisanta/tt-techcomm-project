@@ -204,7 +204,7 @@ When you refresh the page, you can see the changes.
             - uses: actions/setup-python@v4
             with:
                python-version: 3.x
-            - uses: actions/cache@v2
+            - uses: actions/cache@v4
             with:
                key: ${{ github.ref }}
                path: .cache
