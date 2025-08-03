@@ -2,38 +2,42 @@ MkDocs is a popular static site generator specifically designed for creating doc
 
 Here are a few reasons why MkDocs is a good choice for technical documentation:
 
-- **Simplicity**:
+- **Simplicity** <br />
 It has a minimalistic approach, focusing on the essentials of documentation without unnecessary complexity.
 
-- **Markdown support**:
+- **Markdown support** <br />
 With MkDocs, you can write your documentation content in Markdown, making it accessible to both technical and non-technical contributors.
 
-- **Navigation and search**:
+- **Navigation and search** <br />
 MkDocs automatically generates a navigation menu based on the directory structure of your documentation. Additionally, it provides a built-in search functionality that allows users to quickly find the information they need within your documentation.
 
-- **Customizability**:
+- **Customizability** <br />
 MkDocs offers a range of customizable themes and templates, allowing you to tailor the appearance of your documentation to match your brand or project.
 
-- **Versioning and deployment**:
+- **Versioning and deployment** <br />
 MkDocs supports versioning, making it convenient to manage and publish multiple versions of your documentation.
 
-- **Integration with version control systems (VCS)**:
+- **Integration with version control systems (VCS)** <br />
 MkDocs works well with VCS like Git. You can store your documentation files in a Git repository, making it easy to collaborate with team members, track changes, and manage contributions.
 
 In this document, I share the process of building an MkDoc static website and hosting in on GitHub pages.
 
-# Pre-requisites
+<br />
+
+# Prerequisites
 
 - VS Code (or other source code editor)
 - Python extension installed
 - GitHub account
-- GiHub desktop
+- GitHub desktop
 
-# **Step-by-step guides**
+<br />
+
+# Step-by-step guide
 
 The instructions below help create a GitHub repository, clone the repository to the local machine, launch the MkDocs website with Python, and publish it to GitHub pages.
 
-## **Create GitHub repository**
+## Create GitHub repository
 
 **To create new repository in your GitHub account**
 
@@ -43,58 +47,58 @@ The instructions below help create a GitHub repository, clone the repository to 
 4. Select **Public**.
 5. Select **Add a README file**.
 6. For **.gitignore** select **Python**.
-7. (Optional) For the **Choose a license** step, select the **GNU General pulic license** from the dropdown list.
+7. (Optional) For the **Choose a license** step, select the **GNU General public license** from the dropdown list.
 8. Select **Create repository**.
 Your repository has been created.
 9. Open your GitHub desktop account and [clone the repository](https://www.youtube.com/watch?v=PoZNIbs_wx8).
 
 Now you can make changes locally and then commit and push them to GitHub account in the web.
 
-## **Build website**
+## Build website
 
 **To build a website**
 
 1. Open your cloned project in VS Code and open its terminal.
 2. Assuming you have Python already, create virtual Python environment by using the following command:
 
-    ```py
+    ```bash
    python -m venv venv
     ```
 
 3. Activate it using the following command:
 
-    ```py
+    ```bash
    source venv/bin/activate
     ```
 
 4. Install MkDocs with the following command:
 
-    ```py
+    ```bash
    pip install mkdocs-material
     ```
 
-    All the dependancies are downloaded for the website.
+    All the dependencies are downloaded for the website.
 
 5. Created a new website by using the command:
 
-    ```py
+    ```bash
     mkdocs new .
     ```
 
     You  now have two files created for the website:
 
-    ```py
+    ```bash
     INFO     -  Writing config file: ./mkdocs.yml
     INFO     -  Writing initial docs: ./docs/index.md
     ```
 
 6. Run the website locally by using the command:
 
-    ```py
+    ```bash
    mkdocs serve
     ```
 
-    You now have a website built and serving on the local host ```http://127.0.0.1:8000/```
+    The website runs locally at ```http://127.0.0.1:8000/```
 
 7. Open the website by copying and pasting the local host address into the browser address bar.
 The website is served and can be accesses locally.
@@ -102,63 +106,63 @@ The website is served and can be accesses locally.
 
 If you need to make a pause and activate the env some time later, use the following commands in the VS Code terminal of the project:
 
-```py
+```bash
 source venv/bin/activate
 
 mkdocs serve
 ```
 
-## **Configure website**
+## Configure website
 
 The website has the initial configuration. You can add configuration using the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/) documentation. Let us proceed with the basic setup.
 
-**To configure mkdocs website**
+**To configure MkDocs website**
 
 1. Open your mkdocs.yml in VS Code.
 2. Edit the content to change theme, define language, add a search box, and set colours:
 
     ```yml
-    site_name: Your website name
-     theme: 
+   site_name: Your website name
+   theme: 
       name: material
       features:
-        - navigation.tabs
-        - navigation.sections
-        - toc.integrate
-        - navigation.top
-        - search.suggest
-        - search.highlight
-        - content.tabs.link
-        - content.code.annotation
-        - content.code.copy
-        - toc.follow
-        - navigation.path
+         - navigation.tabs
+         - navigation.sections
+         - toc.integrate
+         - navigation.top
+         - search.suggest
+         - search.highlight
+         - content.tabs.link
+         - content.code.annotation
+         - content.code.copy
+         - toc.follow
+         - navigation.path
       language: en
       palette:
-        - scheme: default
-        toggle:
-            icon: material/toggle-switch-off-outline 
-            name: Switch to dark mode
-        primary: indigo
-        accent: purple 
-        - scheme: slate 
-        toggle:
-            icon: material/toggle-switch
-            name: Switch to light mode    
-        primary: indigo
-        accent: lime
+         - scheme: default
+            toggle:
+               icon: material/toggle-switch-off-outline 
+               name: Switch to dark mode
+            primary: indigo
+            accent: purple 
+         - scheme: slate 
+            toggle:
+               icon: material/toggle-switch
+               name: Switch to light mode    
+            primary: indigo
+            accent: lime
     ```
 
-3. Save changes to apply the changes.
+3. Save to apply the changes.
 4. Use the following command to rerun the website configuration:
 
-    ```py
+    ```bash
     mkdocs serve
     ```
 
     When you refresh the website in your browser by visiting the same local host, you can see the changes. If you need to add more settings to your website configuration and add extensions, use the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/) documentation.
 
-## **Add pages**
+## Add pages
 
 **To add pages**
 
@@ -173,7 +177,7 @@ For example, **anotherpage**.**md**.
 When you refresh the page, you can see the changes.
 ![Changed](https://raw.githubusercontent.com/tannisanta/tt-techcomm-project/main/img/mkdocs_changes.jpg)
 
-## **Publish website on GitHub**
+## Publish website on GitHub
 
 **To prepare files for publishing**
 
@@ -186,27 +190,27 @@ When you refresh the page, you can see the changes.
     ```yml
     name: ci 
     on:
-    push:
-    branches:
-      - master 
-      - main
+      push:
+         branches:
+            - master 
+            - main
     permissions:
-    contents: write
+      contents: write
     jobs:
-    deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
-        with:
-          python-version: 3.x
-      - uses: actions/cache@v2
-        with:
-          key: ${{ github.ref }}
-          path: .cache
-      - run: pip install mkdocs-material
-      - run: pip install pillow cairosvg
-      - run: mkdocs gh-deploy --force
+      deploy:
+         runs-on: ubuntu-latest
+         steps:
+            - uses: actions/checkout@v3
+            - uses: actions/setup-python@v4
+            with:
+               python-version: 3.x
+            - uses: actions/cache@v2
+            with:
+               key: ${{ github.ref }}
+               path: .cache
+            - run: pip install mkdocs-material
+            - run: pip install pillow cairosvg
+            - run: mkdocs gh-deploy --force
     ```
 
 6. Save changes.
@@ -232,7 +236,7 @@ You can know access your website and share it with others, make changes locally 
 
 ---
 
-**Check the following references for more information:**
+**References**
 
 - [MkDocs documentation](https://squidfunk.github.io/mkdocs-material/)
 - [GitHub pages](https://pages.github.com/)
